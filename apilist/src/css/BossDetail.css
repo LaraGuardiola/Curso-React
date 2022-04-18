@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Elden ring';
+    src: url('../fonts/Garamond Premier Pro Regular.ttf');
+}
+
+.boss-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Elden ring';
+    color: #aba69b;
+    text-shadow: 1.5px 1.5px black;
+    padding: 1em;
+}
+
+.boss-detail:first-child {
+    margin-top: 2em;
+}
+
+.boss-detail ul {
+    list-style: none;
+}
+
+.boss-detail img{
+    max-width: 80vw;
+    border: 2px solid black;
+    border-radius: 2px;
+}

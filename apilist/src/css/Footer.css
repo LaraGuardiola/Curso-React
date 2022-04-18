@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    color:#feedbd;
+}
+
+.footer i{
+    padding:1em;
+    user-select: none;
+    font-size: 2em
+}
